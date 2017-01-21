@@ -21,6 +21,11 @@ $(document).ready(function() {
       }
       $results.append($list);
       $(".results-container").append($results);
+
+
+      // BEGIN EXTRA CREDIT:
+      var $img = $("<img>").attr("src", "https://maps.googleapis.com/maps/api/staticmap?center=" + val + "&zoom=13&size=600x300");
+      $(".results-container").prepend($img);
     })
   })
 })
