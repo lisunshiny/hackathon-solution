@@ -3,10 +3,37 @@
   <head>
     <meta charset="utf-8">
     <title>Grocery Store finder!</title>
-    <script src="https://code.jquery.com/jquery-3.1.1.js"/>
-    
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles.css">
   </head>
+
   <body>
-    <h1>Grocery stores are the cool new shiz</h1>
+
+
+    <div class="container site-container">
+      <div class="row">
+        <h1>Grocery store finder!</h1>
+      </div>
+      <div class="row content-row">
+        <div class="col col-md-3">
+          <div class="live-question">
+            <span>Where do you live?</span>
+            <input type="text" name="location" value="NYC"></input>
+            <button>Show me!</button>
+          </div>
+
+
+
+        </div>
+        <div class="col col-md-9 results-container">
+          I'll show you where the grocery stores near you are, just input your address :).
+        </div>
+      </div>
+    <div>
   </body>
 </html>
