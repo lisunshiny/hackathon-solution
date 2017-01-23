@@ -2,7 +2,7 @@ $(document).ready(function() {
   $("button").on("click", function(event) {
     var val = $("input").val();
 
-    $.get("http://hackathon.liannsun.com/supermarkets?secret_key=spacecats&location=" + val, function(response) {
+    $.get("//hackathon.liannsun.com/supermarkets?secret_key=spacecats&location=" + val, function(response) {
       $(".results-container").empty()
       var results = response.results;
       $results = $("<div>")
